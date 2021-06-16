@@ -1,0 +1,45 @@
+:root{
+    --color-primary: #007bff;
+    --color-secondary: #252B33;
+    --fonts-primary: 'Poppins', sans-serif;
+}
+
+/*Colores para el NAVBAR*/
+.navbar-light .navbar-nav .nav-link {
+    color: var(--color-secondary);
+    font-family: "Roboto", Helvetica;
+}
+
+.hero-banner-section{
+    background-image: url(../img/Background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.hero-spacing{
+    padding: 50px 0;
+}
+
+.hero-title{
+    font-family: var(--fonts-primary);
+    font-weight: 800;
+}
+
+.link-button{
+    padding: 10px 30px;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 2px solid var(--color-primary);
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.link-button:hover{
+    background: #fff;
+    color: var(--color-primary);
+}
