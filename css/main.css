@@ -17,13 +17,24 @@
     height: 700px;
 }
 
+.banner-left{
+    background-color: #ffffffba;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px -6px black;
+}
+
 .hero-spacing{
-    padding: 50px 0;
+    padding-top: 100px;
 }
 
 .hero-title{
     font-family: var(--fonts-primary);
     font-weight: 800;
+    margin: 15px 0;
+}
+
+.hero-button{
+    margin-bottom: 15px;
 }
 
 .link-button{
