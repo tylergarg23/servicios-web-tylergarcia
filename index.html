@@ -158,62 +158,156 @@
     <section class="hero-trabajamos-section">
         <div class="container text-center">
             <h2 class="mrg-b">
-                Tecnologias con las que trabajamos
+                Tecnologias con las que trabajo
             </h2>
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                    <div class="tecnologias-tab" role="tabpanel">
+                        <!-- Nav tabs -->
 
-            <div class="tecnologias-tab d-flex justify-content-center">
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Front End</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Database</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Backend</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">CMS</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">DevOps</a>
-                    </li>
-                </ul>
-                
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="row">
-                            <div class="tec-content col-4 col-sm-4 col-md-3 col-lg-2">
-                                <div class="icon-box">
-                                    <img src="img/tecnologia-angular-js2x.svg" width="45px" height="45px" alt="">
-                                </div>
-                                <h5 class="tec-title">Angular .JS</h5>
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item"><a href="#frontend" class="nav-link active" role="tab" data-toggle="tab">Front End</a></li>
+                            <li class="nav-item"><a href="#database" class="nav-link" role="tab" data-toggle="tab">Database</a></li>
+                            <li class="nav-item"><a href="#backend" class="nav-link" role="tab" data-toggle="tab">Backend</a></li>
+                            <li class="nav-item"><a href="#cms" class="nav-link" role="tab" data-toggle="tab">CMS</a></li>
+                            <li class="nav-item"><a href="#devops" class="nav-link" role="tab" data-toggle="tab">DevOps</a></li>
+                        </ul>
+                        
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="frontend" role="tabpanel">
+                                <div class="row justify-content-md-center">
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img src="img/tecnologia-angular-js2x.svg" width="45px" height="45px" alt="">
+                                        </div>
+                                        <h5 class="tec-title">Angular .JS</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img src="img/tecnologia-typescript2x-2.svg" width="45px" height="45px" alt="">
+                                        </div>
+                                        <h5 class="tec-title">TypeScript</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img width="48px" height="45px" src="img/tecnologia-vue2x.svg"></img>
+                                        </div>
+                                        <h5 class="tec-title">Vue</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img src="img/tecnologia-html52x.svg" width="42px" height="45px"alt="">
+                                        </div>
+                                        <h5 class="tec-title">HTML5</h5>
+                                    </div>
+                                </div> 
+
                             </div>
-                            <div class="tec-content col-4 col-sm-4 col-md-3 col-lg-2">
-                                <div class="icon-box">
-                                    <img src="img/tecnologia-typescript2x-2.svg" width="45px" height="45px" alt="">
-                                </div>
-                                <h5 class="tec-title">TypeScript</h5>
+                            <div role="tabpanel" class="tab-pane" id="database">
+                                <div class="row justify-content-md-center">
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img src="img/bd-ms-sql2x1.svg" width="45px" height="45px" alt="">
+                                        </div>
+                                        <h5 class="tec-title">MsSQL</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img src="img/bd-my-sql2x.svg" width="45px" height="45px" alt="">
+                                        </div>
+                                        <h5 class="tec-title">MySQL</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img width="48px" height="45px" src="img/bd-mango-db.svg"></img>
+                                        </div>
+                                        <h5 class="tec-title">Mongo DB</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img src="img/bd-postgresql2x.svg" width="42px" height="45px"alt="">
+                                        </div>
+                                        <h5 class="tec-title">PostgreSQL</h5>
+                                    </div>
+                                </div> 
                             </div>
-                            <div class="tec-content col-4 col-sm-4 col-md-3 col-lg-2">
-                                <div class="icon-box">
-                                    <img width="48px" height="45px" src="img/tecnologia-vue2x.svg"></img>
-                                </div>
-                                <h5 class="tec-title">Vue</h5>
+                            <div role="tabpanel" class="tab-pane" id="backend">
+                                <div class="row justify-content-md-center">
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img src="img/backend-php2x.svg" width="45px" height="45px" alt="">
+                                        </div>
+                                        <h5 class="tec-title">PHP</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img src="img/backend-microsoft-dot-net2x.svg" width="45px" height="45px" alt="">
+                                        </div>
+                                        <h5 class="tec-title">.NET</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img width="48px" height="45px" src="img/backend-node-js2x.svg"></img>
+                                        </div>
+                                        <h5 class="tec-title">Node JS</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img src="img/backend-phthon2x.svg" width="42px" height="45px"alt="">
+                                        </div>
+                                        <h5 class="tec-title">Python</h5>
+                                    </div>
+                                </div> 
                             </div>
-                            <div class="tec-content col-4 col-sm-4 col-md-3 col-lg-2">
-                                <div class="icon-box">
-                                    <img src="img/tecnologia-html52x.svg" width="42px" height="45px"alt="">
+                            <div role="tabpanel" class="tab-pane" id="cms">
+                                <div class="row justify-content-md-center">
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img src="img/cms-drupal2x.svg" width="45px" height="45px" alt="">
+                                        </div>
+                                        <h5 class="tec-title">Drupal</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img src="img/cms-wordpress2x.svg" width="45px" height="45px" alt="">
+                                        </div>
+                                        <h5 class="tec-title">Wordpress</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img width="48px" height="45px" src="img/cms-shopify-plus2x.svg"></img>
+                                        </div>
+                                        <h5 class="tec-title">Shopify</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-3">
+                                        <div class="icon-box">
+                                            <img src="img/cms-magento2x.svg" width="42px" height="45px"alt="">
+                                        </div>
+                                        <h5 class="tec-title">Magento</h5>
+                                    </div>
                                 </div>
-                                <h5 class="tec-title">HTML5</h5>
                             </div>
+                            <div role="tabpanel" class="tab-pane" id="devops">
+                                <div class="row justify-content-md-center">
+                                    <div class="tec-content col-6 col-md-4">
+                                        <div class="icon-box">
+                                            <img src="img/devops-aws2x.svg" width="45px" height="45px" alt="">
+                                        </div>
+                                        <h5 class="tec-title">AWS</h5>
+                                    </div>
+                                    <div class="tec-content col-6 col-md-4">
+                                        <div class="icon-box">
+                                            <img src="img/devops-google-cloud2x.svg" width="45px" height="45px" alt="">
+                                        </div>
+                                        <h5 class="tec-title">Google Cloud</h5>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                    <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
-                    <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
                 </div>
             </div>
         </div>
@@ -221,11 +315,7 @@
 
     <!--FOOTER-->
 
-    <script>
-        $(function () {
-          $('#myTab li:last-child a').tab('show')
-        })
-      </script>
+  
 
 
 
