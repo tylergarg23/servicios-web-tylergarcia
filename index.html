@@ -165,22 +165,52 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Front End</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Database</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Messages</a>
+                        <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Backend</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">Settings</a>
+                        <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">CMS</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">DevOps</a>
                     </li>
                 </ul>
                 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row">
+                            <div class="tec-content col-4 col-sm-4 col-md-3 col-lg-2">
+                                <div class="icon-box">
+                                    <img src="img/tecnologia-angular-js2x.svg" width="45px" height="45px" alt="">
+                                </div>
+                                <h5 class="tec-title">Angular .JS</h5>
+                            </div>
+                            <div class="tec-content col-4 col-sm-4 col-md-3 col-lg-2">
+                                <div class="icon-box">
+                                    <img src="img/tecnologia-typescript2x-2.svg" width="45px" height="45px" alt="">
+                                </div>
+                                <h5 class="tec-title">TypeScript</h5>
+                            </div>
+                            <div class="tec-content col-4 col-sm-4 col-md-3 col-lg-2">
+                                <div class="icon-box">
+                                    <img width="48px" height="45px" src="img/tecnologia-vue2x.svg"></img>
+                                </div>
+                                <h5 class="tec-title">Vue</h5>
+                            </div>
+                            <div class="tec-content col-4 col-sm-4 col-md-3 col-lg-2">
+                                <div class="icon-box">
+                                    <img src="img/tecnologia-html52x.svg" width="42px" height="45px"alt="">
+                                </div>
+                                <h5 class="tec-title">HTML5</h5>
+                            </div>
+                        </div>
+                    </div>
                     <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
                     <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
                     <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
@@ -191,7 +221,11 @@
 
     <!--FOOTER-->
 
-
+    <script>
+        $(function () {
+          $('#myTab li:last-child a').tab('show')
+        })
+      </script>
 
 
 

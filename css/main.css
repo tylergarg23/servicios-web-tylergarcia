@@ -175,6 +175,19 @@ a.btn-leer-mas-box::after{
     font-weight: 600;
 }
 
-h2 .mrg-b{
-    margin-bottom: 80px;
+.mrg-b{
+    margin-bottom: 60px;
+}
+
+.tecnologias-tab{
+    font-size: 16px;
+}
+
+.tab-content{
+    margin-top:30px;
+}
+
+.tec-content .tec-title{
+    font-size: 10px;
+    margin-top: 16px;
 }
