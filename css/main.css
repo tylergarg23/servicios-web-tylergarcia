@@ -1,6 +1,7 @@
 :root{
     --color-primary: #007bff;
     --color-secondary: #252B33;
+    --color-form: #08104D;
     --fonts-primary: 'Poppins', sans-serif;
     --fonst-secondary: 'Montserrat', sans-serif;
 }
@@ -190,4 +191,32 @@ a.btn-leer-mas-box::after{
 .tec-content .tec-title{
     font-size: 10px;
     margin-top: 16px;
+}
+
+/** CONTACTO **/
+.hero-contacto-section{
+    background-color: var(--color-form);
+    padding: 80px 0;
+    font-family: var(--fonst-secondary);
+    font-weight: 600;
+}
+
+.contacto-textos{
+    color: #fff;
+}
+
+.contacto-textos span{
+    color: #FFE45E;
+}
+
+.form-container .formulario-enlinea{
+    margin-bottom: 10px;
+}
+
+.form-container .formulario-boton{
+    margin-top: 10px;
+}
+
+.contacto-textos-icons span{
+    color: #fff;
 }
