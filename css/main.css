@@ -220,3 +220,11 @@ a.btn-leer-mas-box::after{
 .contacto-textos-icons span{
     color: #fff;
 }
+
+/** FOOTER **/
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
